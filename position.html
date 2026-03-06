@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Position example</title>
+    <style>
+        nav{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+        }
+        .card {
+            position: relative;
+            width: 200px;
+            padding: 20px;
+            background-color: #4caf4c;
+            color: white;
+            border-radius: 10px;
+            margin: 200px auto;
+        }
+        .badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+            p {
+                margin-top: 500px;
+                text-align: center;
+            }
+        
+    </style>
+</head>
+<body>
+  <nav>My Website </nav> 
+    <div class="card">
+        <span class="badge">New</span>
+        <h1>Welcome to my website</h1>
+        <p>This is simple example of using position in CSS.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p> 
+    </div>
+</body>
+</html>
